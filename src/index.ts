@@ -1,6 +1,7 @@
 import express, { Application } from "express";
 import { DB } from "./db/dbService";
 import continent from "./routes/continent";
+import country from "./routes/country";
 import { status } from "./utils/constants";
 
 const app: Application = express();
@@ -10,13 +11,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/api/continents", continent);
+app.use("/api/countries", country);
+
 app.get("*", (req, res) => {
-	res
-		.status(404)
-		.json({
-			status: status.ERROR,
-			data: { message: "Endpoint doesn't exist" },
-		});
+	res.status(404).json({
+		status: status.ERROR,
+		data: { message: "Endpoint doesn't exist" },
+	});
 });
 
 try {

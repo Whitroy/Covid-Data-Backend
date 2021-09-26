@@ -1,15 +1,10 @@
 import { Request, Response } from "express";
 import { DB } from "../db/dbService";
 import { status } from "../utils/constants";
-
-export const Continent_Name = "Continent_Name";
-
-const db = DB.getInstance.databaseObj;
+import { Continent_Name, db, dBResponse } from "./common.controller";
 
 export const getContinents = async (req: Request, res: Response) => {
-	if (!db) {
-		return res.status(501).json({ error: "Something went wrong!!!" });
-	}
+	dBResponse(req, res);
 
 	const searchKey = req.query.search as string;
 	const response: {
@@ -62,11 +57,8 @@ export const getContinents = async (req: Request, res: Response) => {
 };
 
 export const getContinent = (req: Request, res: Response) => {
+	dBResponse(req, res);
 	const continent = req.params[Continent_Name];
-	if (!db) {
-		return res.status(501).json({ error: "Something went wrong!!!" });
-	}
-
 	if (!continent || !DB.getInstance.checkContinent(continent))
 		return res.status(404).json({
 			status: status.FAILED,

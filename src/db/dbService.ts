@@ -55,7 +55,7 @@ export class DB {
 
 				const test: Test = sanitizeObj({
 					total: parseIntoNum(row["TotalTests"]),
-					perMilliom: parseIntoNum(row["Tests/1M pop"]),
+					perMillion: parseIntoNum(row["Tests/1M pop"]),
 				});
 
 				const report: Report = { test, death, recovery, case: caseReport };

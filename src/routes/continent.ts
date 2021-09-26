@@ -1,6 +1,6 @@
 import { Router } from "express";
+import { Continent_Name } from "../controllers/common.controller";
 import {
-	Continent_Name,
 	getContinent,
 	getContinents,
 } from "../controllers/continent.controller";
