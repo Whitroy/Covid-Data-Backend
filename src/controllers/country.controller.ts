@@ -58,7 +58,7 @@ export const getCountry = (req: Request, res: Response) => {
 	dBResponse(req, res);
 	const country = req.params[Country_Name];
 	if (!country || !db[country])
-		return res.status(404).json({
+		return res.status(502).json({
 			status: status.FAILED,
 			data: { message: "Country doesn't exist!!!" },
 		});

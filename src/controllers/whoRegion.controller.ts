@@ -67,7 +67,7 @@ export const getWHORegion = (req: Request, res: Response) => {
 	}
 
 	if (!region || !DB.getInstance.checkWHORegion(region))
-		return res.status(404).json({
+		return res.status(502).json({
 			status: status.FAILED,
 			data: { message: "Region doesn't exist!!!" },
 		});

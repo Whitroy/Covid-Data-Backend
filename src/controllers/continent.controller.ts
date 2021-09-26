@@ -24,7 +24,7 @@ export const getContinents = async (req: any, res: Response) => {
 	if (searchKey) {
 		continents = DB.getInstance.getcontinents(searchKey) as string[];
 		if (continents.length < 1)
-			return res.status(404).json({
+			return res.status(502).json({
 				status: status.FAILED,
 				data: {
 					message: "Continent with given key doesn't exist!!!",
@@ -69,7 +69,7 @@ export const getContinent = (req: any, res: Response) => {
 	dBResponse(req, res);
 	const continent = req.params[Continent_Name];
 	if (!continent || !DB.getInstance.checkContinent(continent))
-		return res.status(404).json({
+		return res.status(502).json({
 			status: status.FAILED,
 			data: { message: "Continent doesn't exist!!!" },
 		});
