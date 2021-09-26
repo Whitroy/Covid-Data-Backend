@@ -1,8 +1,13 @@
 import { Router } from "express";
-import { getContinents } from "../controllers/continent.controller";
+import {
+	Continent_Name,
+	getContinent,
+	getContinents,
+} from "../controllers/continent.controller";
 
 const router = Router();
 
 router.get("/", getContinents);
+router.get(`/:${Continent_Name}`, getContinent);
 
 export default router;

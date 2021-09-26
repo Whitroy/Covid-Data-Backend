@@ -1,6 +1,7 @@
 import express, { Application } from "express";
 import { DB } from "./db/dbService";
 import continent from "./routes/continent";
+import { status } from "./utils/constants";
 
 const app: Application = express();
 const port = 3000;
@@ -12,7 +13,10 @@ app.use("/api/continents", continent);
 app.get("*", (req, res) => {
 	res
 		.status(404)
-		.json({ status: "failed", data: { message: "Endpoint doesn't exist" } });
+		.json({
+			status: status.ERROR,
+			data: { message: "Endpoint doesn't exist" },
+		});
 });
 
 try {
