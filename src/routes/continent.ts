@@ -4,10 +4,11 @@ import {
 	getContinent,
 	getContinents,
 } from "../controllers/continent.controller";
+import paginate from "../middleware/paginate.middleware";
 
 const router = Router();
 
-router.get("/", getContinents);
-router.get(`/:${Continent_Name}`, getContinent);
+router.get("/", paginate, getContinents);
+router.get(`/:${Continent_Name}`, paginate, getContinent);
 
 export default router;

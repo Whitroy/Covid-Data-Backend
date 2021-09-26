@@ -11,7 +11,7 @@ const port = 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.use("/api/whoRegions", whoRegion);
+app.use("/api/WhoRegions", whoRegion);
 app.use("/api/continents", continent);
 app.use("/api/countries", country);
 
