@@ -83,7 +83,7 @@ Senegal,Africa,16783877,10715,,223,,7101,,3391,33,638,13,114761,6838,Africa
 Norway,Europe,5425471,9468,,256,,8857,,355,3,1745,47,472841,87152,Europe
 DRC,Africa,89802183,9309,,215,,8048,,1046,,104,2,,,Africa
 Malaysia,Asia,32406372,9038,,125,,8713,,200,2,279,4,991333,30591,WesternPacific
-French Guiana,South America,299385,8127,,47,,7240,,840,23,27146,157,41412,138324,
+French Guiana,South America,299385,8127,,47,,7240,,840,23,27146,157,41412,138324,Other
 Gabon,Africa,2230563,7787,,51,,5609,,2127,11,3491,23,85369,38272,Africa
 Tajikistan,Asia,9557468,7665,,62,,6443,,1160,,802,6,,,Europe
 Guinea,Africa,13164905,7664,,49,,6757,,858,24,582,4,14407,1094,Africa
@@ -101,7 +101,7 @@ Greece,Europe,10417673,5123,,210,,1374,,3539,14,492,20,619393,59456,Europe
 Libya,Africa,6880353,4879,,107,,652,,4120,,709,16,59699,8677,EasternMediterranean
 Equatorial Guinea,Africa,1407001,4821,,83,,2182,,2556,,3426,59,44356,31525,Africa
 Maldives,Asia,541448,4680,,19,,2725,,1936,12,8643,35,85587,158071,South-EastAsia
-CAR,Africa,4837752,4620,,59,,1641,,2920,2,955,12,29589,6116,
+CAR,Africa,4837752,4620,,59,,1641,,2920,2,955,12,29589,6116,Other
 Hungary,Europe,9657785,4597,,600,,3463,,534,8,476,62,352546,36504,Europe
 Malawi,Africa,19174839,4491,,137,,2137,,2217,4,234,7,33466,1745,Africa
 Zimbabwe,Africa,14883803,4339,,84,,1264,,2991,,292,6,140421,9434,Africa
@@ -111,7 +111,7 @@ Congo,Africa,5530506,3546,,58,,1589,,1899,,641,10,,,Africa
 Montenegro,Europe,628074,3480,,60,,2178,,1242,,5541,96,38427,61182,Europe
 Thailand,Asia,69817894,3330,,58,,3148,,124,1,48,0.8,749213,10731,South-EastAsia
 Somalia,Africa,15933012,3227,,93,,1728,,1406,2,203,6,,,EasternMediterranean
-Mayotte,Africa,273419,3042,,39,,2738,,265,2,11126,143,13000,47546,
+Mayotte,Africa,273419,3042,,39,,2738,,265,2,11126,143,13000,47546,Other
 Eswatini,Africa,1161348,2968,,55,,1476,,1437,5,2556,47,20784,17896,Africa
 Sri Lanka,Asia,21422362,2839,,11,,2541,,287,1,133,0.5,166737,7783,South-EastAsia
 Cuba,North America,11325899,2775,,88,,2409,,278,4,245,8,285471,25205,Americas
@@ -156,8 +156,8 @@ Bahamas,North America,393616,761,,14,,91,,656,1,1933,36,4814,12230,Americas
 Vietnam,Asia,97425470,747,,10,,392,,345,,8,0.1,482456,4952,WesternPacific
 Lesotho,Africa,2143943,742,,23,,175,,544,,346,11,8771,4091,Africa
 San Marino,Europe,33938,699,,42,,657,,0,,20596,1238,6068,178797,Europe
-Réunion,Africa,895952,671,,5,,592,,74,3,749,6,35419,39532,
-Channel Islands,Europe,174022,597,,47,,533,,17,,3431,270,30721,176535,
+Réunion,Africa,895952,671,,5,,592,,74,3,749,6,35419,39532,Other
+Channel Islands,Europe,174022,597,,47,,533,,17,,3431,270,30721,176535,Other
 Guyana,South America,786936,538,,22,,189,,327,2,684,28,5165,6563,Americas
 Tanzania,Africa,59886383,509,,21,,183,,305,7,8,0.4,,,Africa
 Taiwan,Asia,23821199,477,,7,,443,,27,,20,0.3,82737,3473,WesternPacific
@@ -165,45 +165,45 @@ Comoros,Africa,871326,396,,7,,340,,49,,454,8,,,Africa
 Burundi,Africa,11922216,395,,1,,304,,90,,33,0.08,15614,1310,Africa
 Myanmar,Asia,54446389,357,,6,,308,,43,,7,0.1,122290,2246,South-EastAsia
 Mauritius,Africa,1271985,344,,10,,334,,0,,270,8,205285,161389,Africa
-Isle of Man,Europe,85078,336,,24,,312,,0,,3949,282,8627,101401,
+Isle of Man,Europe,85078,336,,24,,312,,0,,3949,282,8627,101401,Other
 Mongolia,Asia,3283344,293,,,,260,,33,1,89,,38334,11675,WesternPacific
 Eritrea,Africa,3551175,282,,,,225,,57,,79,,,,Africa
-Guadeloupe,North America,400131,279,,14,,179,,86,,697,35,18476,46175,
-Martinique,North America,375235,276,,15,,98,,163,1,736,40,12227,32585,
-Faeroe Islands,Europe,48882,266,,,,192,,74,1,5442,,43045,880590,
-Aruba,North America,106812,263,,3,,114,,146,,2462,28,14047,131511,
+Guadeloupe,North America,400131,279,,14,,179,,86,,697,35,18476,46175,Other
+Martinique,North America,375235,276,,15,,98,,163,1,736,40,12227,32585,Other
+Faeroe Islands,Europe,48882,266,,,,192,,74,1,5442,,43045,880590,Other
+Aruba,North America,106812,263,,3,,114,,146,,2462,28,14047,131511,Other
 Cambodia,Asia,16741375,243,,,,210,,33,1,15,,67807,4050,WesternPacific
 Trinidad and Tobago,North America,1399950,210,,8,,135,,67,,150,6,9559,6828,Americas
-Cayman Islands,North America,65798,203,,1,,202,,0,,3085,15,31108,472780,
-Gibraltar,Europe,33690,190,,,,184,,6,,5640,,23063,684565,
+Cayman Islands,North America,65798,203,,1,,202,,0,,3085,15,31108,472780,Other
+Gibraltar,Europe,33690,190,,,,184,,6,,5640,,23063,684565,Other
 Papua New Guinea,Australia/Oceania,8963009,163,,3,,53,,107,,18,0.3,10808,1206,WesternPacific
-Sint Maarten,North America,42924,160,,16,,64,,80,3,3728,373,1115,25976,
+Sint Maarten,North America,42924,160,,16,,64,,80,3,3728,373,1115,25976,Other
 Bermuda,North America,62254,157,,9,,144,,4,,2522,145,26352,423298,Americas
-Brunei ,Asia,437893,141,,3,,138,,0,,322,7,41148,93968,
+Brunei ,Asia,437893,141,,3,,138,,0,,322,7,41148,93968,Other
 Barbados,North America,287411,133,,7,,100,,26,,463,24,12233,42563,Americas
-Turks and Caicos,North America,38768,129,,2,,39,,88,3,3327,52,1252,32295,
+Turks and Caicos,North America,38768,129,,2,,39,,88,3,3327,52,1252,32295,Other
 Seychelles,Africa,98408,126,,,,124,,2,,1280,,,,Africa
 Monaco,Europe,39270,125,,4,,105,,16,2,3183,102,38209,972982,Europe
 Bhutan,Asia,772443,105,,,,93,,12,,136,,54589,70671,South-EastAsia
 Antigua and Barbuda,North America,98010,92,,3,,76,,13,1,939,31,1500,15305,Americas
 Liechtenstein,Europe,38139,89,,1,,85,,3,,2334,26,900,23598,Europe
 Belize,North America,398312,86,,2,,31,,53,2,216,5,3679,9236,Americas
-French Polynesia,Australia/Oceania,281072,64,,,,62,,2,,228,,5849,20810,
-St. Vincent Grenadines,North America,110976,56,,,,46,,10,,505,,2447,22050,
-Saint Martin,North America,38729,53,,3,,41,,9,1,1368,77,1183,30546,
-Macao,Asia,650193,46,,,,46,,0,,71,,4071,6261,
-Curaçao,North America,164161,31,,1,,28,,2,,189,6,1080,6579,
+French Polynesia,Australia/Oceania,281072,64,,,,62,,2,,228,,5849,20810,Other
+St. Vincent Grenadines,North America,110976,56,,,,46,,10,,505,,2447,22050,Other
+Saint Martin,North America,38729,53,,3,,41,,9,1,1368,77,1183,30546,Other
+Macao,Asia,650193,46,,,,46,,0,,71,,4071,6261,Other
+Curaçao,North America,164161,31,,1,,28,,2,,189,6,1080,6579,Other
 Fiji,Australia/Oceania,897095,27,,1,,18,,8,,30,1,6693,7461,WesternPacific
 Saint Lucia,North America,183712,25,,,,24,,1,,136,,3895,21202,Americas
 Timor-Leste,Asia,1320812,25,,,,24,,1,,19,,4238,3209,South-EastAsia
 Grenada,North America,112576,24,,,,23,,1,,213,,6252,55536,Americas
-New Caledonia,Australia/Oceania,285769,22,,,,22,,0,,77,,11099,38839,
+New Caledonia,Australia/Oceania,285769,22,,,,22,,0,,77,,11099,38839,Other
 Laos,Asia,7285750,20,,,,19,,1,,3,,29374,4032,WesternPacific
 Dominica,North America,72004,18,,,,18,,0,,250,,1005,13958,Americas
 Saint Kitts and Nevis,North America,53237,17,,,,16,,1,,319,,1146,21526,Americas
 Greenland,North America,56780,14,,,,14,,0,,247,,5977,105266,Europe
-Montserrat,North America,4992,13,,1,,10,,2,,2604,200,61,12220,
-Caribbean Netherlands,North America,26247,13,,,,7,,6,,495,,424,16154,
-Falkland Islands,South America,3489,13,,,,13,,0,,3726,,1816,520493,
+Montserrat,North America,4992,13,,1,,10,,2,,2604,200,61,12220,Other
+Caribbean Netherlands,North America,26247,13,,,,7,,6,,495,,424,16154,Other
+Falkland Islands,South America,3489,13,,,,13,,0,,3726,,1816,520493,Other
 Vatican City,Europe,801,12,,,,12,,0,,14981,,,,Europe
 Western Sahara,Africa,598682,10,,1,,8,,1,,17,2,,,Africa

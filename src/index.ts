@@ -2,6 +2,7 @@ import express, { Application } from "express";
 import { DB } from "./db/dbService";
 import continent from "./routes/continent";
 import country from "./routes/country";
+import whoRegion from "./routes/whoRegion";
 import { status } from "./utils/constants";
 
 const app: Application = express();
@@ -10,6 +11,7 @@ const port = 3000;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+app.use("/api/whoRegions", whoRegion);
 app.use("/api/continents", continent);
 app.use("/api/countries", country);
 

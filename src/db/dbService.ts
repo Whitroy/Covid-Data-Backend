@@ -10,7 +10,10 @@ const dbFilePath = path.resolve(__dirname, "csv", "covidData.csv");
 export class DB {
 	private db: { [name: string]: Country } = {};
 	private static _instance: DB;
+
+	// Data redudancy
 	private continentList: string[] = [];
+	private whoRegionList: string[] = [];
 
 	constructor() {
 		if (DB._instance) {
@@ -70,6 +73,9 @@ export class DB {
 				if (!this.continentList.includes(country.continent))
 					this.continentList.push(country.continent);
 
+				if (!this.whoRegionList.includes(country.WHORegion))
+					this.whoRegionList.push(country.WHORegion);
+
 				this.db[country.name] = country;
 			})
 			.on("end", () => {
@@ -97,5 +103,9 @@ export class DB {
 		}, []);
 
 		return cons;
+	}
+
+	checkWHORegion(reg: string) {
+		return this.whoRegionList.includes(reg);
 	}
 }
